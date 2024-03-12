@@ -124,3 +124,49 @@ header .menu-btn{
   font-size: 3.611vw;/* 360px가로 기준 13px */
   padding-bottom: 2.5vw;
 }
+.menu-area .menu-allview-btn{
+  margin: auto;
+  color: #fff;
+  border: 1px solid #464646;
+  background-color: #1da4d9;
+  width: 45.55vw;
+  height: 13.35vw;
+  margin-top: 11.66vw;
+  line-height: 13.35vw;
+  font-size: 3.6vw;
+  text-align: center;
+}
+/* 베스트메뉴 */
+.best-menu-area{
+  background: #ebebeb;
+  padding: 9.444vw 4.166vw 7.777vw;
+}
+.best-menu-area .best-title{
+  color: #36373b;
+  font-size: 5.555vw;
+  font-weight: 500;
+  margin-left: 6.666vw;
+  padding-top: 5.833vw;
+  position: relative;
+}
+.best-menu-area .best-title::before{
+  content: "";/* before,after에 꼭 content넣어줘야함 */
+  display: block;
+  position: absolute;
+  left: 0;top: 0;
+  height: 1.666vw;
+  width: 10vw;
+  background-color: #36373b;
+}
+.best-menu-area .best-title-sub{
+  color: #5e6068;
+  font-size: 4.166vw;
+  margin-top: 3.888vw;
+  margin-left: 6.666vw;
+}
+.best-menu-area .best-menu-box{
+
+}
+.best-menu-area img{
+  width: 100%;
+}
